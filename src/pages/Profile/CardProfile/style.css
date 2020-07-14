@@ -1,0 +1,30 @@
+.cardProfile__container{
+
+}
+
+.cardProfile__img{
+    max-width: 250px;
+    max-height:250px;
+    border-radius: 10px;
+}
+
+.cardProfile__title{
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.infos__container{
+    margin: 10px 0;
+}
+
+.icon__container{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    color: #5c5c5c;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}

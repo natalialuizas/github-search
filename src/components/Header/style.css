@@ -1,0 +1,11 @@
+.header__container{
+    background: #24292E;
+    display: block;
+}
+
+.header__container h1{
+   font-size: 30px;
+   padding: 10px;
+   color: #fff;
+   text-align: center;
+}
