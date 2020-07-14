@@ -17,6 +17,7 @@ const CardProfile = ({
   return (
     <div className="cardProfile__container">
       <img src={avatar} className="cardProfile__img" alt="Foto do Perfil" />
+      <div>
       <h3 className="cardProfile__title">{name}</h3>
       <p>{bio}</p>
       <div className="infos__container">
@@ -44,6 +45,7 @@ const CardProfile = ({
           ></img>
           <p>{following}</p>
         </div>
+      </div>
       </div>
     </div>
   );
