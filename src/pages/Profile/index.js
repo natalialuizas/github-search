@@ -20,6 +20,7 @@ class Profile extends Component{
         const { location } = this.props;
         const user = location.state.res;
         const {data} = await api.get(`/users/${user.login}/repos`)
+        console.log(data)
         this.setState({ user, repos: data });        
       };
 

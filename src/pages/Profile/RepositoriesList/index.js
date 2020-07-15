@@ -6,7 +6,8 @@ import Card from '../../../components/Card'
 const RepositoriesList = ({repositories}) => {
     return(
         <div className="repositories__container">
-           {repositories.map(({name, description, stargazers_count}) => (
+           {repositories.sort((a, b) => b.stargazers_count - a.stargazers_count)
+            .map(({name, description, stargazers_count}) => (
                  // eslint-disable-next-line no-unused-expressions
                  <Card
                   key={`${name}--key`}

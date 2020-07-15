@@ -34,7 +34,7 @@ class Main extends Component {
         this.setState({ error: "Usuário não encontrado", user: "" });
       }
     } else {
-        this.setState({ error: "Usuário não informado", user: "" });
+        this.setState({ error: "Por favor, informe o usuário", user: "" });
     }
   
   };
