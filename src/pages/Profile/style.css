@@ -31,6 +31,19 @@
         justify-content: center;
         align-items: center;
     }
+    .card__container {
+        width: 85%;
+    }
+    .header__container h1 {
+        font-size: 20px;
+    }
 
 }
-
+@media screen and (max-width: 500px){
+  .card__title {
+    font-size: 16px !important;
+ }
+ .infos__container {
+    margin: 20px 0;
+}
+}

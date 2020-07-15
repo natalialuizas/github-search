@@ -18,9 +18,9 @@ class Profile extends Component{
 
     componentDidMount = async () => {
         const { location } = this.props;
-        const user = location.state.data.login;
-        const repos = await api.get(`/users/${user}/repos`)
-        this.setState({ user: location.state.data, repos: repos.data });        
+        const user = location.state.res;
+        const {data} = await api.get(`/users/${user.login}/repos`)
+        this.setState({ user, repos: data });        
       };
 
     render(){

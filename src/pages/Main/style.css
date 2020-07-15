@@ -36,8 +36,33 @@
     text-align: center;
 }
 
-/* @media screen and (max-width: 780px) {
-    .main__container {
-        width: 80%;
+@media screen and (max-width: 780px) {
+    .input__search {
+        font-size: 18px;
+        width: 500px;
     }
-} */
+}
+
+@media screen and (max-width: 644px){
+    .btn__search {
+        width: 50px;
+    }
+    .input__search {
+        width: 450px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .input__search {
+        width: 400px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .input__search {
+        width: 300px;
+        font-size: 11px;
+    }
+}
